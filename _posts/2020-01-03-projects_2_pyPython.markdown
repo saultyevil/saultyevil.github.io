@@ -2,7 +2,7 @@
 layout: default
 img:
 category: projects
-title: pyPython
+title: pyPython - a python package designed to make using Python easier
 description: |
 ---
 
