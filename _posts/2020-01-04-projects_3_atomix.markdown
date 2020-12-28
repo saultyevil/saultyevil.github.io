@@ -6,4 +6,4 @@ title: atomix
 description: |
 ---
 
-Here is my project. 
+Terminal based atomic data viewer for Python.

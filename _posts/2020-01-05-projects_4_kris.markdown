@@ -2,8 +2,8 @@
 layout: default
 img:
 category: projects
-title: pyPython
+title: Kris
 description: |
 ---
 
-Python package for Python.
+Terminal based simple text editor, based on Kilo.

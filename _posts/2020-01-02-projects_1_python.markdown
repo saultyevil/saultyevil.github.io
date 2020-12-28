@@ -1,9 +1,9 @@
 ---
 layout: default
-img: 
+img:
 category: projects
 title: Python
 description: |
 ---
 
-Here is my project. 
+Monte Carlo radative transfer and ionization code.
