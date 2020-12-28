@@ -10,6 +10,7 @@ As part of the Next Generational Modelling Centre of Doctoral Training (NGCM-CDT
 the first year of my PhD included a taught masters year in computational and
 numerical techniques. Below are some of the projects which I worked on during
 this taught course. 
+{: .text-justify}
 
 * [Simulation and Modelling](https://github.com/saultyevil/Simulation-and-Modelling)
 * [Numerical Methods](https://github.com/saultyevil/Numerical-Methods)

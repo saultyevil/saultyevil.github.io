@@ -7,3 +7,4 @@ description: |
 ---
 
 Description of thesis.
+{: .text-justify}

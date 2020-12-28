@@ -7,3 +7,4 @@ description: |
 ---
 
 Terminal based atomic data viewer for Python.
+{: .text-justify}

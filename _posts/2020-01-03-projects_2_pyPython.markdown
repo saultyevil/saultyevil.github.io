@@ -7,3 +7,4 @@ description: |
 ---
 
 Python package for Python.
+{: .text-justify}

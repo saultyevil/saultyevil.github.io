@@ -7,3 +7,4 @@ description: |
 ---
 
 Monte Carlo radative transfer and ionization code.
+{: .text-justify}

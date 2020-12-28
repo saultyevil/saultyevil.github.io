@@ -7,5 +7,6 @@ description: |
 ---
 
 Parkinson, Edward J.;  Knigge, Christian;  Long, Knox S.;  Matthews, James H.;  Higginbottom, Nick;  Sim, Stuart A.; Hewitt, Henrietta A.
+{: .text-justify}
 
 [2020, MNRAS, 494, 4914](https://ui.adsabs.harvard.edu/abs/2020MNRAS.494.4914P/abstract)
