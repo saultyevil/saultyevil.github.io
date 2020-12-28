@@ -1,8 +1,8 @@
 ---
 layout: default
 img: ipad.png
-category: main
-title: projects 
+category: projects
+title: My Projects 
 description: |
 ---
 

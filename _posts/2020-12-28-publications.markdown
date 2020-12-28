@@ -1,8 +1,8 @@
 ---
 layout: default
 img: dog.png
-category: main 
-title: publications 
+category: publications 
+title: My Publications 
 description: |
 ---
 
