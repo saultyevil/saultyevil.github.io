@@ -1,0 +1,9 @@
+---
+layout: default
+img: ipad.png
+category: main
+title: projects 
+description: |
+---
+
+  Here I will document my projects.
