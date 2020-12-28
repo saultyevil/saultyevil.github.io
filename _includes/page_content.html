@@ -1,3 +1,4 @@
+<!-- Projects -->
 <section id="projects">
 <!-- Page Content -->
 {% for post in site.posts reversed %}
@@ -5,9 +6,7 @@
     {% if post.category == 'projects' %}
         {% if thecycle == 'odd' %}
         <div class="content-section-a">
-
             <div class="container">
-
                 <div class="row">
                     <div class="col-lg-5 col-sm-6">
                         <hr class="section-heading-spacer">
@@ -16,21 +15,18 @@
                         <div class="lead">{{ post.content }}</div>
                     </div>
                     <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                        {% if post.img %}
                         <img class="img-responsive" src="img/projects/{{ post.img }}" alt="">
+                        {% endif %}
                     </div>
                 </div>
-
             </div>
             <!-- /.container -->
-
         </div>
         <!-- /.content-section-a -->
         {% else %}
-
         <div class="content-section-b">
-
             <div class="container">
-
                 <div class="row">
                     <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                         <hr class="section-heading-spacer">
@@ -39,13 +35,13 @@
                         <div class="lead">{{ post.content }}</div>
                     </div>
                     <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                      <img class="img-responsive" src="img/projects/{{ post.img }}" alt="">
+                        {% if post.img %}
+                        <img class="img-responsive" src="img/projects/{{ post.img }}" alt="">
+                        {% endif %}
                     </div>
                 </div>
-
             </div>
             <!-- /.container -->
-
         </div>
         <!-- /.content-section-b -->
         {%endif %}
@@ -53,6 +49,7 @@
 {% endfor %}
 </section>
 
+<!-- Publications -->
 <section id="publications">
 <!-- Page Content -->
 {% for post in site.posts reversed %}
@@ -60,9 +57,7 @@
     {% if post.category == 'publications' %}
         {% if thecycle == 'odd' %}
         <div class="content-section-a">
-
             <div class="container">
-
                 <div class="row">
                     <div class="col-lg-5 col-sm-6">
                         <hr class="section-heading-spacer">
@@ -71,21 +66,18 @@
                         <div class="lead">{{ post.content }}</div>
                     </div>
                     <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                        {% if post.img %}
                         <img class="img-responsive" src="img/publications/{{ post.img }}" alt="">
+                        {% endif %}
                     </div>
                 </div>
-
             </div>
             <!-- /.container -->
-
         </div>
         <!-- /.content-section-a -->
         {% else %}
-
         <div class="content-section-b">
-
             <div class="container">
-
                 <div class="row">
                     <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                         <hr class="section-heading-spacer">
@@ -94,13 +86,13 @@
                         <div class="lead">{{ post.content }}</div>
                     </div>
                     <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                      <img class="img-responsive" src="img/publications/{{ post.img }}" alt="">
+                        {% if post.img %}
+                        <img class="img-responsive" src="img/publications/{{ post.img }}" alt="">
+                        {% endif %}
                     </div>
                 </div>
-
             </div>
             <!-- /.container -->
-
         </div>
         <!-- /.content-section-b -->
         {%endif %}

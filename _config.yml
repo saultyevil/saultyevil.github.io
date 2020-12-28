@@ -3,7 +3,7 @@
 # ----------------------- #
 
 url: http://edwardparkinson.co.uk
-title: Edward Parkinson 
+title: Edward John Parkinson 
 email: saultyevil@gmail.com 
 author: Edward John Parkinson
 description: > 
@@ -30,5 +30,7 @@ social:
     url: https://www.linkedin.com/in/edward-parkinson-86391613a/
   - title: twitter
     url: https://twitter.com/douched_
+  # - title: google
+  #   url: mailto:saultyevil@gmail.com
   # - title: orcid
   # url: https://orcid.org/0000-0003-3902-052X
