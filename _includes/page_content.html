@@ -1,11 +1,25 @@
 <!-- Projects -->
 <section id="projects">
-<!-- Page Content -->
-{% for post in site.posts reversed %}
-  {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-    {% if post.category == 'projects' %}
-        {% if thecycle == 'even' %}
-        <div class="content-section-a">
+    <!-- Project header -->
+    <div class="content-section-a">
+        <div class="container">
+            <div class="row">
+                <hr class="section-heading-spacer">
+                <div class="clearfix"></div>
+                <h2 class="section-heading">Projects</h2>
+                Throughout my PhD, I have created a small collection of programs
+                and scripts for both data visualization and analysis, as well as
+                small toy programs to simulate complex physical situations.
+                
+                The majority of my projects are hosted on <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="drawing" width="28"/>
+                [GitHub](https://github.com/saultyevil).
+            </div>
+        </div>
+    </div>
+    
+    {% for post in site.posts reversed %}
+      {% if post.category == 'projects' %}
+        <div class="content-section-b">
             <div class="container">
                 <div class="row">
                     <hr class="section-heading-spacer">
@@ -14,75 +28,40 @@
                     <div class="lead">{{ post.content }}</div>
                 </div>
             </div>
-            <!-- /.container -->
         </div>
-        <!-- /.content-section-a -->
-        {% else %}
+        {% endif %}
+    {% endfor %}
+</section>
+
+<!-- Publications -->
+<section id="publications">
+    <!-- Project header -->
+    <div class="content-section-a">
+        <div class="container">
+            <div class="row">
+                <hr class="section-heading-spacer">
+                <div class="clearfix"></div>
+                <h2 class="section-heading">Publications</h2>
+                Below are a selection of some of my publications. An additional 
+                bibliography can be found on <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/ORCID_iD.svg/768px-ORCID_iD.svg.png" alt="drawing" width="20"/>
+                [ORCID](https://orcid.org/0000-0003-3902-052X).
+            </div>
+        </div>
+    </div>
+    
+    {% for post in site.posts reversed %}
+      {% if post.category == 'publications' %}
         <div class="content-section-b">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                        <hr class="section-heading-spacer">
-                        <div class="clearfix"></div>
-                        <h2 class="section-heading">{{ post.title }}</h2>
-                        <div class="lead">{{ post.content }}</div>
-                    </div>
-                    <div class="col-lg-5 col-sm-pull-6 col-sm-6">
-                        {% if post.img %}
-                        <img class="img-responsive center-block" src="img/projects/{{ post.img }}" alt="">
-                        {% endif %}
-                    </div>
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">{{ post.title }}</h2>
+                    <div class="lead">{{ post.content }}</div>
                 </div>
             </div>
-            <!-- /.container -->
         </div>
-        <!-- /.content-section-b -->
-        {%endif %}
-    {% endif %}
-{% endfor %}
-</section>
-
-<!-- Projects -->
-<section id="publications">
-    <!-- Page Content -->
-    {% for post in site.posts reversed %}
-      {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-        {% if post.category == 'publications' %}
-            {% if thecycle == 'even' %}
-            <div class="content-section-a">
-                <div class="container">
-                    <div class="row">
-                        <hr class="section-heading-spacer">
-                        <div class="clearfix"></div>
-                        <h2 class="section-heading">{{ post.title }}</h2>
-                        <div class="lead">{{ post.content }}</div>
-                    </div>
-                </div>
-                <!-- /.container -->
-            </div>
-            <!-- /.content-section-a -->
-            {% else %}
-            <div class="content-section-b">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                            <hr class="section-heading-spacer">
-                            <div class="clearfix"></div>
-                            <h2 class="section-heading">{{ post.title }}</h2>
-                            <div class="lead">{{ post.content }}</div>
-                        </div>
-                        <div class="col-lg-5 col-sm-pull-6 col-sm-6">
-                            {% if post.img %}
-                            <img class="img-responsive center-block" src="img/projects/{{ post.img }}" alt="">
-                            {% endif %}
-                        </div>
-                    </div>
-                </div>
-                <!-- /.container -->
-            </div>
-            <!-- /.content-section-b -->
-            {%endif %}
         {% endif %}
     {% endfor %}
-    </section>
+</section>
     
