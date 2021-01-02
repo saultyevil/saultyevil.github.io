@@ -35,7 +35,7 @@ pyPython is a python package developed to using in conjuction with PYTHON.
         repoistory.</p>
     </div>
     <div class="col-md-6" align="center">
-        <img src="img/projects/atomix.png" style="width: 20vw; min-width: 420px;">
+        <!-- <img src="img/projects/atomix.png" style="width: 20vw; min-width: 420px;"> -->
     </div>
 </div>
 
