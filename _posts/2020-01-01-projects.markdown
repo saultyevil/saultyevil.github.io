@@ -6,29 +6,32 @@ title: ""
 description: |
 ---
 
-# Python - a Monte Carlo radative transfer and ionization code
+# PYTHON and pyPython - a Monte Carlo radative transfer and ionization code
 
 <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="" width="28"/> [Python](https://github.com/saultyevil/python)
 
-Monte Carlo radative transfer and ionization code.
+PYTHON is a state-of-the-art Monte Carlo radative transfer and ionization code.
 
 # pyPython - a python package designed to make using Python easier
 
 <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="" width="28"/> [pyPython](https://github.com/saultyevil/pypython)
 
-Python package for Python.
+pyPython is a python package developed to using in conjuction with PYTHON.
 
 # atomix - a terminal based tool to browse atomic data files
 
 <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="" width="28"/> [atomix](https://github.com/saultyevil/atomix)
 
-<div class="row">
-    <div class="col-md-6">
-        atomix is a terminal based atomic data viewer for Python, written in C using
-        the ncurses library.
+<div class="row vertical-align">
+    <div class="col-md-5">
+        atomix is a terminal based atomic data viewer for Python, written in C 
+        using the ncurses library. The puropse of atomix is to browse the atomic
+        data files using in PYTHON and as such requires PYTHON to be installed
+        to be used fully - although test data has been provided in the atomix
+        repoistory.
     </div>
-    <div class="col-md-6">
-        <img src="img/projects/atomix.png" style="width: 20vw; min-width: 330px;">
+    <div class="col-md-7" align="center">
+        <img src="img/projects/atomix.png" style="width: 20vw; min-width: 560px;">
     </div>
 </div>
 
@@ -56,12 +59,15 @@ system of differential equations.ss
 Below are some of the projects which I worked on during
 my taught course.
 
-<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="" width="28"/> [Simulation and Modelling](https://github.com/saultyevil/Simulation-and-Modelling)
-
-<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="" width="28"/> [Numerical Methods](https://github.com/saultyevil/Numerical-Methods)
-
-<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="" width="28"/> [MPI Edge Reverse](https://github.com/saultyevil/MPI-Edge-Reverse)
-
-<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="" width="28"/> [CUDA Edge Reverse](https://github.com/saultyevil/CUDA-Edge-Reverse)
-
-<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="" width="28"/> [OpenMP Scheduler](https://github.com/saultyevil/OpenMP-Affinity-Scheduler)
+<div class="row vertical-align">
+    <div class="col-md-6">
+        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="" width="28"/> <a href="https://github.com/saultyevil/Simulation-and-Modelling">Simulation and Modelling</a><br><br>
+        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="" width="28"/> <a href="https://github.com/saultyevil/Numerical-Methods">Numerical Methods</a><br><br>
+        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="" width="28"/> <a href="https://github.com/saultyevil/MPI-Edge-Reverse">MPI Edge Reverse</a><br><br>
+        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="" width="28"/> <a href="https://github.com/saultyevil/CUDA-Edge-Reverse">CUDA Edge Reverse</a><br><br>
+        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="" width="28"/> <a href="https://github.com/saultyevil/OpenMP-Affinity-Scheduler">OpenMP Affinity Scheduler</a>
+    </div>
+    <div class="col-md-6">
+        <img src="img/projects/ngcm.png" style="width: 20vw; min-width: 450px;">
+    </div>
+</div>
