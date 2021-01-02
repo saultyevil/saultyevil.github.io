@@ -6,7 +6,7 @@ title: ""
 description: |
 ---
 
-# PYTHON and pyPython - a Monte Carlo radative transfer and ionization code
+# PYTHON - a Monte Carlo radative transfer and ionization code
 
 <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="" width="28"/> [Python](https://github.com/saultyevil/python)
 
@@ -14,7 +14,7 @@ PYTHON is a state-of-the-art Monte Carlo radative transfer and ionization code.
 {: style="text-align: justify"}
 
 <br>
-# pyPython - a python package designed to make using Python easier
+# pyPython - a python package for PYTHON
 
 <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="" width="28"/> [pyPython](https://github.com/saultyevil/pypython)
 
@@ -52,7 +52,7 @@ search the texxt buffer. The project is named after my cat, Kris. Here is a
 {: style="text-align: justify"}
 
 <p align="center">
-    <img src="/img/projects/kris_cat_cropped.png" alt="Kris" style="width: 15vw; min-width: 280px;"/>
+    <img src="/img/projects/kris_cat_cropped.png" alt="Kris" style="width: 20vw;"/>
 </p>
 
 <br>
