@@ -11,30 +11,35 @@ description: |
 <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="" width="28"/> [Python](https://github.com/saultyevil/python)
 
 PYTHON is a state-of-the-art Monte Carlo radative transfer and ionization code.
+{: style="text-align: justify"}
 
+<br>
 # pyPython - a python package designed to make using Python easier
 
 <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="" width="28"/> [pyPython](https://github.com/saultyevil/pypython)
 
 pyPython is a python package developed to using in conjuction with PYTHON.
+{: style="text-align: justify"}
 
+<br>
 # atomix - a terminal based tool to browse atomic data files
 
 <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="" width="28"/> [atomix](https://github.com/saultyevil/atomix)
 
 <div class="row vertical-align">
-    <div class="col-md-5">
-        atomix is a terminal based atomic data viewer for Python, written in C 
+    <div class="col-md-6">
+        <p align="justify">atomix is a terminal based atomic data viewer for Python, written in C 
         using the ncurses library. The puropse of atomix is to browse the atomic
         data files using in PYTHON and as such requires PYTHON to be installed
         to be used fully - although test data has been provided in the atomix
-        repoistory.
+        repoistory.</p>
     </div>
-    <div class="col-md-7" align="center">
-        <img src="img/projects/atomix.png" style="width: 20vw; min-width: 560px;">
+    <div class="col-md-6" align="center">
+        <img src="img/projects/atomix.png" style="width: 20vw; min-width: 420px;">
     </div>
 </div>
 
+<br>
 # Kris - a simple terminal based text editor
 
 <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="" width="28"/> [Kris](https://github.com/saultyevil/Kris/)
@@ -44,20 +49,23 @@ editor Kilo. Kris supports reading and writing files, as well as including
 syntax highlighting for C, Fortran and Python and the ability to dynamically
 search the texxt buffer. The project is named after my cat, Kris. Here is a 
 *very* cute picture of him.
+{: style="text-align: justify"}
 
 <p align="center">
     <img src="/img/projects/kris_cat_cropped.png" alt="Kris" style="width: 15vw; min-width: 280px;"/>
 </p>
 
+<br>
 # Next Generational Computational Modelling
 
 As part of the Next Generational Modelling Centre of Doctoral Training (NGCM-CDT),
 the first year of my PhD included a taught masters year in computational and
 numerical techniques. The image is of some simulated hair, created by solving a 
-system of differential equations.ss
+system of differential equations.
+{: style="text-align: justify"}
 
-Below are some of the projects which I worked on during
-my taught course.
+Below are some of the projects which I worked on during my taught course.
+{: style="text-align: justify"}
 
 <div class="row vertical-align">
     <div class="col-md-6">
