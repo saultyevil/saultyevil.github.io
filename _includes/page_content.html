@@ -4,15 +4,14 @@
     <div class="content-section-a">
         <div class="container">
             <div class="row">
-                <hr class="section-heading-spacer">
+                <!-- <hr class="section-heading-spacer"> -->
                 <div class="clearfix"></div>
                 <h2 class="section-heading">Projects</h2>
                 <p style="font-size: 18px;font-weight: 400;">
                     Throughout my PhD, I have created a small collection of programs
                     and scripts for both data visualization and analysis, as well as
                     small toy programs to simulate complex physical situations.
-                    
-                    The majority of my projects are hosted on <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="drawing" width="28"/>
+                    <br><br>Most of my projects are hosted on <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="drawing" width="28"/>
                     <a href="https://github.com/saultyevil">GitHub</a>.
                 </p>
             </div>
@@ -20,13 +19,13 @@
     </div>
     <!-- Projects content -->
     {% for post in site.posts reversed %}
-      {% if post.category == 'projects' %}
+        {% if post.category == 'projects' %}
         <div class="content-section-b">
             <div class="container">
                 <div class="row">
                     <!-- <hr class="section-heading-spacer"> -->
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">{{ post.title }}</h2>
+                    <!-- <h2 class="section-heading">{{ post.title }}</h2> -->
                     <div class="lead">{{ post.content }}</div>
                 </div>
             </div>
@@ -41,12 +40,14 @@
     <div class="content-section-a">
         <div class="container">
             <div class="row">
-                <hr class="section-heading-spacer">
+                <!-- <hr class="section-heading-spacer"> -->
                 <div class="clearfix"></div>
                 <h2 class="section-heading">Publications</h2>
                 <p style="font-size: 18px;font-weight: 400;">
-                    Below are a selection of some of my publications. An additional 
-                    bibliography can be found on <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/ORCID_iD.svg/768px-ORCID_iD.svg.png" alt="drawing" width="20"/>
+                    Below are a selection of some of my publications, including
+                    journal articles and theses. A more in-depth bibliography can
+                    be found on 
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/ORCID_iD.svg/768px-ORCID_iD.svg.png" alt="drawing" width="20">
                     <a href="https://orcid.org/0000-0003-3902-052X">ORCID</a>.
                 </p>
             </div>
@@ -60,7 +61,7 @@
                 <div class="row">
                     <!-- <hr class="section-heading-spacer"> -->
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">{{ post.title }}</h2>
+                    <!-- <h2 class="section-heading">{{ post.title }}</h2> -->
                     <div class="lead">{{ post.content }}</div>
                 </div>
             </div>
