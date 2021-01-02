@@ -76,6 +76,6 @@ Below are some of the projects which I worked on during my taught course.
         <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="" width="28"/> <a href="https://github.com/saultyevil/OpenMP-Affinity-Scheduler">OpenMP Affinity Scheduler</a>
     </div>
     <div class="col-md-6">
-        <img src="img/projects/ngcm.png" style="width: 20vw; min-width: 450px;">
+        <!-- <img src="img/projects/ngcm.png" style="width: 20vw; min-width: 450px;"> -->
     </div>
 </div>
