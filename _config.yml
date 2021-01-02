@@ -9,7 +9,7 @@ author: Edward John Parkinson
 description: > 
   Personal website of Edward John Parkinson.
 copyright: 'Copyright &copy; 2020 Edward John Parkinson. All Rights Reserved.'
-credits: 'Based on the Landing Page theme which is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com/">Start Bootstrap</a>.' 
+credits:
 
 # ----------------------- #
 #    Jekyll & Plugins     #
