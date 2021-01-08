@@ -51,9 +51,9 @@ search the texxt buffer. The project is named after my cat, Kris. Here is a
 *very* cute picture of him.
 {: style="text-align: justify"}
 
-<p align="center">
+<!-- <p align="center">
     <img src="/img/projects/kris_cat_cropped.png" alt="Kris" style="width: 20vw;"/>
-</p>
+</p> -->
 
 <br>
 # Next Generational Computational Modelling
