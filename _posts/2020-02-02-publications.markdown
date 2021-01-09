@@ -8,8 +8,10 @@ description: |
 
 <br>
 # Reprocessing of radiation in optically thick winds in tidal disruption events
+{: style="text-align: justify" }
 
 Parkinson, Edward J.;  Knigge, Christian;  Long, Knox S.;  Matthews, James H.;  Higginbottom, Nick;  Sim, Stuart A.; Hewitt, Henrietta A.; Mangham, Samuel W.
+{: style="text-align: justify"}
 
 In prep.
 
@@ -18,8 +20,10 @@ Tidal disruption events (TDEs) turn out to be surprisingly luminous at optical a
 
 <br>
 # Accretion disc winds in tidal disruption events: ultraviolet spectral lines as orientation indicators
+{: style="text-align: justify" }
 
 Parkinson, Edward J.;  Knigge, Christian;  Long, Knox S.;  Matthews, James H.;  Higginbottom, Nick;  Sim, Stuart A.; Hewitt, Henrietta A.
+{: style="text-align: justify"}
 
 [2020, MNRAS, 494, 4914](https://ui.adsabs.harvard.edu/abs/2020MNRAS.494.4914P/abstract)
 
@@ -28,6 +32,7 @@ Some tidal disruption events (TDEs) exhibit blueshifted broad absorption lines (
 
 <br>
 # Masters thesis: adiabatic hydrodynamic simulations of two-dimensional inviscid extragalatic jets
+{: style="text-align: justify" }
 
 Available upon request.
 {: style="text-align: justify"}

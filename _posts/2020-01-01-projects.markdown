@@ -10,7 +10,13 @@ description: |
 
 <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="" width="28"/> [Python](https://github.com/saultyevil/python)
 
-PYTHON is a state-of-the-art Monte Carlo radative transfer and ionization code.
+PYTHON is a (confusingly named) state-of-the-art Monte Carlo radative transfer 
+and ionization code written in C. Currently still in "beta", PYTHON has been
+actively developed since the 90's by Knox Long, Christian Knigge, Stuart Sim, 
+Nick Higginbottom, James Matthews, Sam Mangham and me. PYTHON has been used for a
+variaty of research projects involving the winds of cataclysmic variables, young
+stellar objects, active galactic nuclei, X-ray binaries and tidal disruption 
+events.
 {: style="text-align: justify"}
 
 <br>
