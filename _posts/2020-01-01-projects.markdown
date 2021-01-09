@@ -8,7 +8,7 @@ description: |
 
 # PYTHON - a Monte Carlo radative transfer and ionization code
 
-<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="" width="28"/> [Python](https://github.com/saultyevil/python)
+<img src="../img/github.png" alt="" width="28"/> [Python](https://github.com/saultyevil/python)
 
 PYTHON is a (confusingly named) state-of-the-art Monte Carlo radative transfer 
 and ionization code written in C. Currently still in "beta", PYTHON has been
@@ -22,7 +22,7 @@ events.
 <br>
 # pyPython - a python package for PYTHON
 
-<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="" width="28"/> [pyPython](https://github.com/saultyevil/pypython)
+<img src="../img/github.png" alt="" width="28"/> [pyPython](https://github.com/saultyevil/pypython)
 
 pyPython is a python package developed to make using PYTHON easier. pyPython was 
 orignally a way for me to standardize plots and analysis for PYTHON models, whilst
@@ -39,7 +39,7 @@ and scientific computing in general.
 <br>
 # atomix - a terminal based tool to browse atomic data files
 
-<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="" width="28"/> [atomix](https://github.com/saultyevil/atomix)
+<img src="../img/github.png" alt="" width="28"/> [atomix](https://github.com/saultyevil/atomix)
 
 <div class="row vertical-align">
     <div class="col-md-6">
@@ -62,7 +62,7 @@ and scientific computing in general.
 <br>
 # Kris - a simple terminal based text editor
 
-<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="" width="28"/> [Kris](https://github.com/saultyevil/Kris/)
+<img src="../img/github.png" alt="" width="28"/> [Kris](https://github.com/saultyevil/Kris/)
 
 <div class="row vertical-align">
     <div class="col-md-4">
@@ -93,11 +93,11 @@ projects which I worked on during the course.
 
 <div class="row vertical-align">
     <div class="col-md-6">
-        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="" width="28"/> <a href="https://github.com/saultyevil/Simulation-and-Modelling">Simulation and Modelling</a><br><br>
-        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="" width="28"/> <a href="https://github.com/saultyevil/Numerical-Methods">Numerical Methods</a><br><br>
-        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="" width="28"/> <a href="https://github.com/saultyevil/MPI-Edge-Reverse">MPI Edge Reverse</a><br><br>
-        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="" width="28"/> <a href="https://github.com/saultyevil/CUDA-Edge-Reverse">CUDA Edge Reverse</a><br><br>
-        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="" width="28"/> <a href="https://github.com/saultyevil/OpenMP-Affinity-Scheduler">OpenMP Affinity Scheduler</a>
+        <img src="../img/github.png" alt="" width="28"/> <a href="https://github.com/saultyevil/Simulation-and-Modelling">Simulation and Modelling</a><br><br>
+        <img src="../img/github.png" alt="" width="28"/> <a href="https://github.com/saultyevil/Numerical-Methods">Numerical Methods</a><br><br>
+        <img src="../img/github.png" alt="" width="28"/> <a href="https://github.com/saultyevil/MPI-Edge-Reverse">MPI Edge Reverse</a><br><br>
+        <img src="../img/github.png" alt="" width="28"/> <a href="https://github.com/saultyevil/CUDA-Edge-Reverse">CUDA Edge Reverse</a><br><br>
+        <img src="../img/github.png" alt="" width="28"/> <a href="https://github.com/saultyevil/OpenMP-Affinity-Scheduler">OpenMP Affinity Scheduler</a>
     </div>
     <div class="col-md-6">
         <img src="img/projects/ngcm.png" style="max-width: 100%; height: auto;">
