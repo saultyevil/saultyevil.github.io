@@ -7,6 +7,16 @@ description: |
 ---
 
 <br>
+# Reprocessing of radiation in optically thick winds in tidal disruption events
+
+Parkinson, Edward J.;  Knigge, Christian;  Long, Knox S.;  Matthews, James H.;  Higginbottom, Nick;  Sim, Stuart A.; Hewitt, Henrietta A.; Mangham, Samuel W.
+
+In prep.
+
+Tidal disruption events (TDEs) turn out to be surprisingly luminous at optical and ultraviolet (UV) wavelengths. One model for this optical excess proposes that thermal X-ray emission from an accretion disc is reprocessed to longer wavelengths by an optically thick envelope - shifting the peak of the spectrum. We explore this reprocessing scenario and its role on the formation of UV and optical features within the context of an optically thick accretion disc wind. Using a state-of-the-art Monte Carlo radiative transfer and ionization code, we produce synthetic UV and optical spectra for wind and disc-hosting TDEs. Our models span a realistic range of accretion rates and wind kinematics inspired by observations. We find that such winds produce both the UV and optical features commonly seen in TDE spectra. Emission from the accretion disc is reprocessed by the wind and plays a key role in the formation of the optical spectrum. Variations in the kinematics of the wind, as well as the accretion rate, change the amount of reprocessing and ionization state of the wind, consequently affecting the strength of spectral features. Specifically, we find that the amount of reprocessing and optical line luminosity increases for winds with higher optical depths. Finally, we find for our range of black hole masses and accretion rates that the outflow is easily overionized, preventing the formation of UV absorption features. The models in this work are publicly available and upon request.
+{: style="text-align: justify"}
+
+<br>
 # Accretion disc winds in tidal disruption events: ultraviolet spectral lines as orientation indicators
 
 Parkinson, Edward J.;  Knigge, Christian;  Long, Knox S.;  Matthews, James H.;  Higginbottom, Nick;  Sim, Stuart A.; Hewitt, Henrietta A.
@@ -17,16 +27,21 @@ Some tidal disruption events (TDEs) exhibit blueshifted broad absorption lines (
 {: style="text-align: justify"}
 
 <br>
-# Reprocessing of radiation in optically thick winds in tidal disruption events
+# Masters thesis: adiabatic hydrodynamic simulations of two-dimensional inviscid extragalatic jets
 
-Parkinson, Edward J.;  Knigge, Christian;  Long, Knox S.;  Matthews, James H.;  Higginbottom, Nick;  Sim, Stuart A.; Hewitt, Henrietta A.; Mangham, Samuel W.;
-
-In prep.
-
-Tidal disruption events (TDEs) turn out to be surprisingly luminous at optical and ultraviolet (UV) wavelengths. One model for this optical excess proposes that thermal X-ray emission from an accretion disc is reprocessed to longer wavelengths by an optically thick envelope - shifting the peak of the spectrum. We explore this reprocessing scenario and its role on the formation of UV and optical features within the context of an optically thick accretion disc wind. Using a state-of-the-art Monte Carlo radiative transfer and ionization code, we produce synthetic UV and optical spectra for wind and disc-hosting TDEs. Our models span a realistic range of accretion rates and wind kinematics inspired by observations. We find that such winds produce both the UV and optical features commonly seen in TDE spectra. Emission from the accretion disc is reprocessed by the wind and plays a key role in the formation of the optical spectrum. Variations in the kinematics of the wind, as well as the accretion rate, change the amount of reprocessing and ionization state of the wind, consequently affecting the strength of spectral features. Specifically, we find that the amount of reprocessing and optical line luminosity increases for winds with higher optical depths. Finally, we find for our range of black hole masses and accretion rates that the outflow is easily overionized, preventing the formation of UV absorption features. The models in this work are publicly available and upon request.
+Available upon request.
 {: style="text-align: justify"}
 
-<br>
-# Adiabatic Hydrodynamic Simulations of Two-Dimensional Inviscid Axisymmetric Extragalatic Jets
-
-TODO
+The aims of this project are to explore how perturbing pulses interact in extragalactic jets, focusing on the
+oscillatory behaviour of the shock fronts. This is done by using a simple 2d hydrodynamical model used to model
+inviscid, axisymmetric jets using the software PLUTO. Light, low Mach number jets
+are simulated over a range of pressure ratios to create overexpanded, underexpanded and pressure
+matched jets. The pulses are sinusoidal patterns with varying amplitudes and frequencies. These pulses
+develop cause shock fronts with higher strength than those of the internal jet shock fronts. Pulses are found to 
+eject jet material into the ambient medium and can severely disrupt the structure of some jets. Simulations show
+an interesting behaviour where pulses cause internal shock fronts to move within the jet structure.
+It's found that for pulses with an amplitude of F = 0.5 and frequency of ω = π cause the largest
+shock front movement and that the length of pulse injection affects the total amount of shock front movement. It
+is proposed that a feedback loop of turbulent energy from the pulses and ejected jet material, as it is entrained
+back into the jet, is the source of this shock front oscillation.
+{: style="text-align: justify"}
