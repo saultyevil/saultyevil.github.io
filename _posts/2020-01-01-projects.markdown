@@ -22,6 +22,7 @@ events.
 
 <br>
 # pyPython - a python package for PYTHON
+{: style="text-align: justify" }
 
 <img src="../img/github.png" alt="" width="28"/> [pyPython](https://github.com/saultyevil/pypython)
 
@@ -39,6 +40,7 @@ and scientific computing in general.
 
 <br>
 # atomix - a terminal based tool to browse atomic data files
+{: style="text-align: justify" }
 
 <img src="../img/github.png" alt="" width="28"/> [atomix](https://github.com/saultyevil/atomix)
 
@@ -62,6 +64,7 @@ and scientific computing in general.
 
 <br>
 # Kris - a simple terminal based text editor
+{: style="text-align: justify" }
 
 <img src="../img/github.png" alt="" width="28"/> [Kris](https://github.com/saultyevil/Kris/)
 
@@ -84,6 +87,7 @@ and scientific computing in general.
 
 <br>
 # Next Generational Computational Modelling
+{: style="text-align: justify" }
 
 As part of the Next Generational Modelling Centre of Doctoral Training (NGCM-CDT),
 the first year of my PhD included a taught masters year in computational and
