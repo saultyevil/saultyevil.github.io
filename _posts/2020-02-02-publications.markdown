@@ -57,6 +57,7 @@ is the source of this shock front oscillation.
 
 <br>
 # Measuring proper motions of nearby stars and brown dwarfs
+{: style="text-align: justify" }
 
 Bachelors thesis available upon request.
 {: style="text-align: justify" }
