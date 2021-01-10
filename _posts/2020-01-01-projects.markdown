@@ -7,6 +7,7 @@ description: |
 ---
 
 # PYTHON - a Monte Carlo radative transfer and ionization code
+{: style="text-align: justify" }
 
 <img src="../img/github.png" alt="" width="28"/> [Python](https://github.com/saultyevil/python)
 
