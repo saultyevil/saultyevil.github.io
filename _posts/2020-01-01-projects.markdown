@@ -11,12 +11,12 @@ description: |
 
 <img src="../img/github.png" alt="" width="28"/> [Python](https://github.com/saultyevil/python)
 
-PYTHON is a (confusingly named) state-of-the-art Monte Carlo radative transfer 
+PYTHON is a (confusingly named) state-of-the-art Monte Carlo radative transfer
 and ionization code written in C. Currently still in "beta", PYTHON has been
-actively developed since the 90's by Knox Long, Christian Knigge, Stuart Sim, 
+actively developed since the 90's by Knox Long, Christian Knigge, Stuart Sim,
 Nick Higginbottom, James Matthews, Sam Mangham and me. PYTHON has been used for a
 variaty of research projects involving the winds of cataclysmic variables, young
-stellar objects, active galactic nuclei, X-ray binaries and tidal disruption 
+stellar objects, active galactic nuclei, X-ray binaries and tidal disruption
 events.
 {: style="text-align: justify"}
 
@@ -26,15 +26,15 @@ events.
 
 <img src="../img/github.png" alt="" width="28"/> [pyPython](https://github.com/saultyevil/pypython)
 
-pyPython is a python package developed to make using PYTHON easier. pyPython was 
-orignally a way for me to standardize plots and analysis for PYTHON models, whilst
+pyPython is a python package developed to make using PYTHON easier. pyPython was
+originally a way for me to standardize plots and analysis for PYTHON models, whilst
 trying to avoid creating custom scripts for each model. At the heart of pyPython
 is the idea of having flexible functions to suit as many models as possible. pyPython
 has now evolved into a beast of its own and has become a fully-featured companion
 from PYTHON. For example, pyPython features scripts to create and run a grid of
 models, including basic logging and notification systems to keep track of the
 progress of currently running simulations. Various utility scripts and functions
-are also included to deal with otherwise teadious tasks associated with using PYTHON
+are also included to deal with otherwise tedious tasks associated with using PYTHON
 and scientific computing in general.
 {: style="text-align: justify"}
 
@@ -48,7 +48,7 @@ and scientific computing in general.
     <div class="col-md-6">
         <p align="justify">
             atomix is a terminal based atomic data viewer. Written in C, atomix
-            uses the ncurses library to provide a user interface. The puropse of
+            uses the ncurses library to provide a user interface. The purpose of
             atomix is to provide a way to browse and gain intuition of the atomic
             data files used in PYTHON. As such, it has quite a niche use case and
             requires PYTHON to be installed to be used to it's fullest. However,
@@ -78,8 +78,8 @@ and scientific computing in general.
         <p align="justify">
             Kris is a simple terminal based text editor written in C using the ncurses
             library. It is based on the text editor Kilo. Kris supports reading as well as writing
-            to file. Kris also features syntax highlighting for C, Fortran and Python and inlucdes
-            a rudimentary search function for the text buffer. The project is named after my 
+            to file. Kris also features syntax highlighting for C, Fortran and Python and includes
+            a rudimentary search function for the text buffer. The project is named after my
             cat, Kris. Here is a <i>lovely</i> picture of him.
         </p>
     </div>
@@ -91,7 +91,7 @@ and scientific computing in general.
 
 As part of the Next Generational Modelling Centre of Doctoral Training (NGCM-CDT),
 the first year of my PhD included a taught masters year in computational and
-numerical techniques. The image is of some simulated hair, created by solving a 
+numerical techniques. The image is of some simulated hair, created by solving a
 system of differential equations using the shooting method. Below are some of the
 projects which I worked on during the course.
 {: style="text-align: justify"}
