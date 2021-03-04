@@ -7,7 +7,7 @@ description: |
 ---
 
 <br>
-# Reprocessing of radiation in optically thick winds in tidal disruption events
+# Reprocessing in optically thick outflows can produce the optical emission line spectra of tidal disruption events
 {: style="text-align: justify" }
 
 Parkinson, Edward J.;  Knigge, Christian;  Long, Knox S.;  Matthews, James H.;
@@ -18,22 +18,26 @@ In prep.
 
 Tidal disruption events (TDEs) turn out to be surprisingly luminous at optical
 and ultraviolet (UV) wavelengths. One model for this optical excess proposes that
-thermal X-ray emission from an accretion disc is reprocessed to longer wavelengths
-by an optically thick envelope - shifting the peak of the spectrum. We explore this
-reprocessing scenario and its role on the formation of UV and optical features within
-the context of an optically thick accretion disc wind. Using a state-of-the-art Monte
-Carlo radiative transfer and ionization code, we produce synthetic UV and optical
-spectra for wind and disc-hosting TDEs. Our models span a realistic range of accretion
-rates and wind kinematics inspired by observations. We find that such winds produce
-both the UV and optical features commonly seen in TDE spectra. Emission from the
-accretion disc is reprocessed by the wind and plays a key role in the formation of
-the optical spectrum. Variations in the kinematics of the wind, as well as the
-accretion rate, change the amount of reprocessing and ionization state of the wind,
-consequently affecting the strength of spectral features. Specifically, we find
-that the amount of reprocessing increasing for winds with higher optical depths.
-Finally, we find for our range of black hole masses and accretion rates that the
-outflow is easily overionized, preventing the formation of UV absorption features.
-The models in this work are publicly available and upon request.
+thermal X-ray emission from a compact accretion disc is reprocessed to longer
+wavelengths by an optically thick envelope. We explore this reprocessing scenario
+and its role on the formation of UV and optical features within the context of
+an optically thick accretion disc wind. Using a state-of-the-art Monte Carlo
+radiative transfer and ionization code, we produce synthetic UV and optical
+spectra for wind and disc-hosting TDEs. Our models are inspired by observations,
+spanning a realistic range of accretion rates and wind kinematics. We find that
+such outflows can efficiently reprocess the disc emission and naturally produce
+the broad Balmer and Helium recombination features commonly seen in TDEs.
+The emission lines feature an asymmetric red wing, with electron scattering
+having a dramatic influence on their profiles. Moreover, the characteristic
+colour temperature of the reprocessed spectral energy distribution (SED) is
+much lower than that of the accretion disc. We show explicitly how changes
+in black hole mass, accretion rate and wind properties affect the observed
+broadband SED and line spectrum. In general, slower, denser winds reprocess
+more radiation and produce stronger Balmer emission. Most of the outflows we
+consider are too highly ionized to produce UV absorption features. This is
+sensitive to the input SED. For example, truncating the inner disk at just
+\\(\simeq 4 ~ R_{\text{ISCO}}\\) lowers the wind ionization state sufficiently
+to produce UV absorption features for sight lines looking into the wind.
 {: style="text-align: justify"}
 
 <br>
