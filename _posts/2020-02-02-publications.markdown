@@ -36,8 +36,8 @@ broadband SED and line spectrum. In general, slower, denser winds reprocess
 more radiation and produce stronger Balmer emission. Most of the outflows we
 consider are too highly ionized to produce UV absorption features. This is
 sensitive to the input SED. For example, truncating the inner disk at just
-\\(\simeq 4 ~ R_{\text{ISCO}}\\) lowers the wind ionization state sufficiently
-to produce UV absorption features for sight lines looking into the wind.
+4 ~ ISCO lowers the wind ionization state sufficiently to produce UV absorption
+features for sight lines looking into the wind.
 {: style="text-align: justify"}
 
 <br>
