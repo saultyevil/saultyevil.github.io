@@ -96,7 +96,7 @@ the first year of my PhD included a taught masters year in computational and
 numerical techniques. The image is of some simulated hair, created by solving a
 system of differential equations using the shooting method. Below are some of the
 projects which I worked on during the course.
-<!-- {: style="text-align: justify"} -->
+{: style="text-align: justify"}
 
 <div class="row vertical-align">
     <div class="col-md-6">
