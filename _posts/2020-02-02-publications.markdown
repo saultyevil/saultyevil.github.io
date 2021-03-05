@@ -8,11 +8,11 @@ description: |
 
 <br>
 # Reprocessing in optically thick outflows can produce the optical emission line spectra of tidal disruption events
-{: style="text-align: justify" }
+<!-- {: style="text-align: justify" } -->
 
 Parkinson, Edward J.;  Knigge, Christian;  Long, Knox S.;  Matthews, James H.;
 Higginbottom, Nick;  Sim, Stuart A.; Hewitt, Henrietta A.; Mangham, Samuel W.
-{: style="text-align: justify"}
+<!-- {: style="text-align: justify"} -->
 
 In prep.
 
@@ -42,11 +42,11 @@ to produce UV absorption features for sight lines looking into the wind.
 
 <br>
 # Accretion disc winds in tidal disruption events: ultraviolet spectral lines as orientation indicators
-{: style="text-align: justify" }
+<!-- {: style="text-align: justify" } -->
 
 Parkinson, Edward J.;  Knigge, Christian;  Long, Knox S.;  Matthews, James H.;
 Higginbottom, Nick;  Sim, Stuart A.; Hewitt, Henrietta A.
-{: style="text-align: justify"}
+<!-- {: style="text-align: justify"} -->
 
 [2020, MNRAS, 494, 4914](https://ui.adsabs.harvard.edu/abs/2020MNRAS.494.4914P/abstract)
 
@@ -74,10 +74,10 @@ outflow. The models in this work are publicly available online and upon request.
 
 <br>
 # Adiabatic hydrodynamic simulations of two-dimensional inviscid extragalatic jets
-{: style="text-align: justify" }
+<!-- {: style="text-align: justify" } -->
 
 Masters thesis available upon request.
-{: style="text-align: justify"}
+<!-- {: style="text-align: justify"} -->
 
 The aims of this project are to explore how perturbing pulses interact in
 extragalactic jets, focusing on the oscillatory behaviour of the shock fronts.
@@ -99,10 +99,10 @@ is the source of this shock front oscillation.
 
 <br>
 # Measuring proper motions of nearby stars and brown dwarfs
-{: style="text-align: justify" }
+<!-- {: style="text-align: justify" } -->
 
 Bachelors thesis available upon request.
-{: style="text-align: justify" }
+<!-- {: style="text-align: justify" } -->
 
 This project aimed to find nearby stars and brown dwarfs by searching for high
 proper motion stars which are objects that move with a large angular displacement

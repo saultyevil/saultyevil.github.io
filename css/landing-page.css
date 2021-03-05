@@ -21,6 +21,7 @@ h6 {
     font-weight: 700;
 }
 
+
 .lead {
     font-size: 18px;
     font-weight: 400;
@@ -88,16 +89,25 @@ h6 {
     letter-spacing: 2px;
 }
 
+.bg-light {
+    background-color: #d8ddeb!important;
+}
+
+.border-bottom {
+    border-bottom: 0px solid #6e6e6e!important;
+}
+
 .content-section-a {
     padding: 50px 0;
-    background-color: #f8f8f8;
-    border-top: 1px solid #e7e7e7;
-    border-bottom: 1px solid #e7e7e7;
+    background-color: #d8ddeb;  /*#f8f8f*/
+    border-top: 0px solid #6e6e6e; /*#e7e7e7*/
+    border-bottom: 0px solid #6e6e6e;
 }
 
 .content-section-b {
     padding: 50px 0;
-    border-top: 1px solid #e7e7e7;
+    /*background-color: #d8ddeb;*/
+    border-top: 1px solid #e7e7e7;  /*#e7e7e7*/
     border-bottom: 1px solid #e7e7e7;
 }
 
@@ -161,9 +171,11 @@ h6 {
 footer {
     padding: 50px 0;
     background-color: #f8f8f8;
+    background-color: #d8ddeb;
 }
 
 p.copyright {
+    background-color: #d8ddeb;
     margin: 15px 0 0;
 }
 

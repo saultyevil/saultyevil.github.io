@@ -3,18 +3,20 @@
     <!-- Projects header -->
     <div class="content-section-a">
         <div class="container">
-            <div class="row">
+            <div class="row vertical-align">
                 <!-- <hr class="section-heading-spacer"> -->
                 <div class="clearfix"></div>
-                <h2 class="section-heading">Projects</h2>
-                <p style="font-size: 18px;font-weight: 400;">
-                    Shown below are a small sample of programs
-                    and scripts I have created for data visualization and analysis,
-                    as well as small toy models to demonstrate some physics.
-                    <br><br>
-                    The rest of my projects are found on <img src="../img/github.png" alt="drawing" width="28"/>
-                    <a href="https://github.com/saultyevil">GitHub</a>.
-                </p>
+                <div class="col-md-12">
+                    <h2 class="section-heading">Projects</h2>
+                    <p style="font-size: 18px;font-weight: 400;">
+                        Shown below are a small sample of programs
+                        and scripts I have created for data visualization and analysis,
+                        as well as small toy models to demonstrate some physics.
+                        <br><br>
+                        The rest of my projects are found on <img src="../img/github.png" alt="drawing" width="28"/>
+                        <a href="https://github.com/saultyevil">GitHub</a>.
+                    </p>
+                </div>
             </div>
         </div>
     </div>
@@ -23,11 +25,13 @@
         {% if post.category == 'projects' %}
         <div class="content-section-b">
             <div class="container">
-                <div class="row">
+                <div class="row vertical-align">
                     <!-- <hr class="section-heading-spacer"> -->
                     <div class="clearfix"></div>
                     <!-- <h2 class="section-heading">{{ post.title }}</h2> -->
-                    <div class="lead">{{ post.content }}</div>
+                    <div class="col-md-12">
+                        <div class="lead">{{ post.content }}</div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -40,17 +44,19 @@
     <!-- Pubcliations header -->
     <div class="content-section-a">
         <div class="container">
-            <div class="row">
+            <div class="row vertical-align">
                 <!-- <hr class="section-heading-spacer"> -->
                 <div class="clearfix"></div>
-                <h2 class="section-heading">Publications</h2>
-                <p style="font-size: 18px;font-weight: 400;">
-                    Shown below is a selection of some of my publications, including
-                    journal articles. A more in-depth bibliography can
-                    be found on 
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/ORCID_iD.svg/768px-ORCID_iD.svg.png" alt="drawing" width="20">
-                    <a href="https://orcid.org/0000-0003-3902-052X">ORCID</a>.
-                </p>
+                <div class="col-md-12">
+                    <h2 class="section-heading">Publications</h2>
+                    <p style="font-size: 18px;font-weight: 400;">
+                        Shown below is a selection of some of my publications, including
+                        journal articles. A more in-depth bibliography can
+                        be found on
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/ORCID_iD.svg/768px-ORCID_iD.svg.png" alt="drawing" width="20">
+                        <a href="https://orcid.org/0000-0003-3902-052X">ORCID</a>.
+                    </p>
+                </div>
             </div>
         </div>
     </div>
@@ -63,11 +69,12 @@
                     <!-- <hr class="section-heading-spacer"> -->
                     <div class="clearfix"></div>
                     <!-- <h2 class="section-heading">{{ post.title }}</h2> -->
-                    <div class="lead">{{ post.content }}</div>
+                    <div class="col-md-12">
+                        <div class="lead">{{ post.content }}</div>
+                    </div>
                 </div>
             </div>
         </div>
         {% endif %}
     {% endfor %}
 </section>
-    
