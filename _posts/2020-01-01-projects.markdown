@@ -13,11 +13,11 @@ description: |
 
 PYTHON is a (confusingly named) state-of-the-art Monte Carlo radative transfer
 and ionization code written in C. Currently still in "beta", PYTHON has been
-actively developed since the 90's by Knox Long, Christian Knigge, Stuart Sim,
-Nick Higginbottom, James Matthews, Sam Mangham and me. PYTHON has been used for a
-variaty of research projects involving the winds of cataclysmic variables, young
-stellar objects, active galactic nuclei, X-ray binaries and tidal disruption
-events.
+actively developed since the mid-90's by Knox Long, Christian Knigge, Stuart Sim,
+Nick Higginbottom, James Matthews, Sam Mangham, Mandy Hewitt and me. PYTHON has
+been used for a variety of research projects involving the winds of cataclysmic
+variables, young stellar objects, active galactic nuclei, X-ray binaries and
+tidal disruption events.
 {: style="text-align: justify"}
 
 <br>
@@ -76,18 +76,20 @@ and scientific computing in general.
     </div>
     <div class="col-md-8">
         <p align="justify">
-            Kris is a simple terminal based text editor written in C using the ncurses
-            library. It is based on the text editor Kilo. Kris supports reading as well as writing
-            to file. Kris also features syntax highlighting for C, Fortran and Python and includes
-            a rudimentary search function for the text buffer. The project is named after my
-            cat, Kris. Here is a <i>lovely</i> picture of him.
+            Kris is a simple terminal based text editor written in C, implementing
+            it's own TUI interface, rather than using something sane like ncurses.
+            It is based on the text editor Kilo and supports reading from and writing
+            to disk. Kris also features basic syntax highlighting for C, Fortran
+            and Python and includes a rudimentary search function for the text
+            buffer. The project is named after my cat, Kris. Here is a
+            <i>lovely</i> picture of him.
         </p>
     </div>
 </div>
 
 <br>
 # Next Generational Computational Modelling
-{: style="text-align: justify" }
+<!-- {: style="text-align: justify" } -->
 
 As part of the Next Generational Modelling Centre of Doctoral Training (NGCM-CDT),
 the first year of my PhD included a taught masters year in computational and
