@@ -7,33 +7,33 @@ description: |
 ---
 
 # PYTHON - a Monte Carlo radative transfer and ionization code
-<!-- {: style="text-align: justify" } -->
 
 <img src="../img/github.png" alt="" width="28"/> [Python](https://github.com/saultyevil/python)
 
 PYTHON is a (confusingly named) state-of-the-art Monte Carlo radative transfer
-and ionization code written in C. Currently still in "beta", PYTHON has been
-actively developed since the mid-90's by Knox Long, Christian Knigge, Stuart Sim,
-Nick Higginbottom, James Matthews, Sam Mangham, Mandy Hewitt and me. PYTHON has
-been used for a variety of research projects involving the winds of cataclysmic
-variables, young stellar objects, active galactic nuclei, X-ray binaries and
-tidal disruption events.
+and ionization code written in (mostly pre-ANSI) C. Currently under active development,
+PYTHON has been around since the mid-90's and developed by Knox Long,
+Christian Knigge, Stuart Sim, Nick Higginbottom, James Matthews, Sam Mangham,
+Mandy Hewitt and me. PYTHON has a flexible interface for inputting your own
+computational grids, or can be configured to use several hard-wired, but parameterised,
+kinematic models. It has been used for a variety of research projects
+involving the winds, but not limited to, of cataclysmic variables,
+active galactic nuclei and tidal disruption events.
 {: style="text-align: justify"}
 
 <br>
 # pypython - a python package for PYTHON
-<!-- {: style="text-align: justify" } -->
 
 <img src="../img/github.png" alt="" width="28"/> [pypython](https://github.com/saultyevil/pypython)
 
-pypython is a python package developed to make using PYTHON easier. pypython was
-originally a way for me to standardize plots and analysis for PYTHON models, whilst
-trying to avoid creating custom scripts for each model. At the heart of pypython
-is the idea of having flexible functions to suit as many models as possible. pypython
-has now evolved into a beast of its own and has become a fully-featured companion
-for PYTHON. For example, pypython features scripts to create and run a grid of
-models, including basic logging and notification functionalities to keep track of the
-progress of running simulations. Various utility scripts and functions
+pypython is a python package developed to make using PYTHON that bit easier. It was
+originally a way for me to standardise plots and analysis for PYTHON models, to
+avoid creating bespoke scripts for each model or project. At the heart of pypython
+is the idea of having flexible functions to suit plotting as many models as possible.
+pypython has now evolved, for better or worse, into a beast of its own and has become
+a fully-featured companion for PYTHON. For example, pypython features scripts to create
+and run a grid of models, including basic logging and notification functionalities to
+keep track of the progress of simulations. Various utility scripts and functions
 are also included to deal with otherwise tedious tasks associated with using PYTHON
 and scientific computing in general.
 {: style="text-align: justify"}
@@ -48,12 +48,12 @@ and scientific computing in general.
     <div class="col-md-6">
         <p align="justify">
             atomix is a terminal based atomic data viewer. Written in C, atomix
-            uses the ncurses library to provide a user interface. The purpose of
-            atomix is to provide a way to browse and gain intuition of the atomic
-            data files used in PYTHON. As such, it has quite a niche use case and
-            requires PYTHON to be installed to be used to it's fullest. However,
-            it is still possible to play around with test data provided with the
-            program and can be told to search a directory for PYTHON compatible
+            uses the ncurses library to provide a simple, but efficient user interface.
+            The purpose of atomix is to provide a way to browse and gain intuition
+            of the atomic data files used in PYTHON. As such, it has quite a niche
+            use case and requires PYTHON to be installed to be used to it's fullest.
+            However, it is still possible to play around with test data provided with
+            the program and can be told to search a directory for PYTHON compatible
             atomic data.
         </p>
     </div>
@@ -64,7 +64,6 @@ and scientific computing in general.
 
 <br>
 # Kris - a simple terminal based text editor
-<!-- {: style="text-align: justify" } -->
 
 <img src="../img/github.png" alt="" width="28"/> [Kris](https://github.com/saultyevil/Kris/)
 
@@ -89,7 +88,6 @@ and scientific computing in general.
 
 <br>
 # Next Generational Computational Modelling
-<!-- {: style="text-align: justify" } -->
 
 As part of the Next Generational Modelling Centre of Doctoral Training (NGCM-CDT),
 the first year of my PhD included a taught masters year in computational and
@@ -110,3 +108,17 @@ projects which I worked on during the course.
         <img src="img/projects/ngcm.png" style="max-width: 100%; height: auto;">
     </div>
 </div>
+
+<br>
+# adminbot - the solution against admin abuse on Discord
+
+<img src="../img/github.png" alt="" width="28"/> [adminbot](https://github.com/saultyevil/adminbot)
+
+adminbot is a silly Discord bot designed to moderate the moderators and to shame
+them when they have abused their position of power. Its main function is to unban,
+invite and give roles to abused users who have been unfairly removed from the server.
+It also keeps tally of the number of admin abuses throughout the day, to further
+shame any rogue moderators. But, it also has a handful of silly functions
+including a Markov Chain chatbot, which is gradually trained on the messages
+from the server.
+{: style="text-align: justify"}

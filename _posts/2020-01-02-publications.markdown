@@ -36,7 +36,7 @@ broadband SED and line spectrum. In general, slower, denser winds reprocess
 more radiation and produce stronger Balmer emission. Most of the outflows we
 consider are too highly ionized to produce UV absorption features. This is
 sensitive to the input SED. For example, truncating the inner disk at just
-4 ~ ISCO lowers the wind ionization state sufficiently to produce UV absorption
+~ 4 R ISCO lowers the wind ionization state sufficiently to produce UV absorption
 features for sight lines looking into the wind.
 {: style="text-align: justify"}
 
@@ -79,18 +79,18 @@ outflow. The models in this work are publicly available online and upon request.
 Masters thesis available upon request.
 <!-- {: style="text-align: justify"} -->
 
-The aims of this project are to explore how perturbing pulses interact in
-extragalactic jets, focusing on the oscillatory behaviour of the shock fronts.
-This is done by using a simple 2d hydrodynamical model used to model inviscid,
-axisymmetric jets using the software PLUTO. Light, low Mach number jets are
-simulated over a range of pressure ratios to create overexpanded, underexpanded
-and pressure matched jets. The pulses are sinusoidal patterns with varying
-amplitudes and frequencies. These pulses develop cause shock fronts with higher
-strength than those of the internal jet shock fronts. Pulses are found to eject
-jet material into the ambient medium and can severely disrupt the structure of
-some jets. Simulations show an interesting behaviour where pulses cause internal
-shock fronts to move within the jet structure. It's found that for pulses with
-an amplitude of F = 0.5 and frequency of ω = π cause the largest shock front
+We  explore how perturbing pulses interact in extragalactic jets, focusing on
+any movement of the shock fronts. This is done using a simple 2D
+hydrodynamical model used to simulate inviscid, axisymmetric jets using the
+software PLUTO. We model a number of light, low Mach number jets are over a
+range of pressure ratios to create overexpanded, underexpanded and pressure
+matched jets, injecting sinusoidal pulse patterns with varying amplitudes and
+frequencies. These pulses cause shock fronts with higher strength than those of
+the internal jet shock fronts. Pulses are found to eject jet material into the
+surrounding ambient medium and in some cases can severely disrupt the structure
+of the jets. Our simulations show an interesting behaviour where pulses cause
+internal shock fronts to move within the jet structure. We found that pulses
+with an amplitude of F = 0.5 and frequency of ω = π cause the largest shock front
 movement and that the length of pulse injection affects the total amount of
 shock front movement. It is proposed that a feedback loop of turbulent energy
 from the pulses and ejected jet material, as it is entrained back into the jet,

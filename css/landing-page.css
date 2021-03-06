@@ -90,7 +90,7 @@ h6 {
 }
 
 .bg-light {
-    background-color: #d8ddeb!important;
+    background-color: #76768c!important;
 }
 
 .border-bottom {
@@ -99,16 +99,16 @@ h6 {
 
 .content-section-a {
     padding: 50px 0;
-    background-color: #d8ddeb;  /*#f8f8f*/
-    border-top: 0px solid #6e6e6e; /*#e7e7e7*/
-    border-bottom: 0px solid #6e6e6e;
+    background-color: #adafb8;  /*#f8f8f*/
+    border-top: 0px solid #adafb8; /*#e7e7e7*/
+    border-bottom: 0px solid #adafb8;
 }
 
 .content-section-b {
     padding: 50px 0;
     /*background-color: #d8ddeb;*/
-    border-top: 1px solid #e7e7e7;  /*#e7e7e7*/
-    border-bottom: 1px solid #e7e7e7;
+    /*border-top: 1px solid #e7e7e7;  /*#e7e7e7*/
+    /*border-bottom: 1px solid #e7e7e7;*/
 }
 
 .section-heading {
@@ -170,12 +170,12 @@ h6 {
 
 footer {
     padding: 50px 0;
-    background-color: #f8f8f8;
-    background-color: #d8ddeb;
+    /*background-color: #f8f8f8;*/
+    /*background-color: #d8ddeb;*/
 }
 
 p.copyright {
-    background-color: #d8ddeb;
+    /*background-color: #d8ddeb;*/
     margin: 15px 0 0;
 }
 
