@@ -82,7 +82,7 @@ Masters thesis available upon request.
 We  explore how perturbing pulses interact in extragalactic jets, focusing on
 any movement of the shock fronts. This is done using a simple 2D
 hydrodynamical model used to simulate inviscid, axisymmetric jets using the
-software PLUTO. We model a number of light, low Mach number jets are over a
+software PLUTO. We model a number of light, low Mach number jets over a
 range of pressure ratios to create overexpanded, underexpanded and pressure
 matched jets, injecting sinusoidal pulse patterns with varying amplitudes and
 frequencies. These pulses cause shock fronts with higher strength than those of

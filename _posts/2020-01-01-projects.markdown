@@ -121,5 +121,6 @@ function is to unban, invite and give roles to abused users who have been unfair
 admin abused on the server. To shame the admins, it keeps a daily tally of the
 number of admin abuses throughout the day. However, it also features a handful
 of silly functions including a Markov Chain chatbot which responds randomly to
-user's messages, gradually learning how to speak from the users of the server.
+user's messages, gradually learning how to speak (mostly nonsense) from the users
+it interacts with.
 {: style="text-align: justify"}
