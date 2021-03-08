@@ -110,15 +110,17 @@ projects which I worked on during the course.
 </div>
 
 <br>
-# adminbot - the solution against admin abuse on Discord
+# adminbot - automatic Discord moderation
 
 <img src="../img/github.png" alt="" width="28"/> [adminbot](https://github.com/saultyevil/adminbot)
 
-adminbot is a silly Discord bot designed to moderate the moderators and to shame
-them when they have abused their position of power. Its main function is to unban,
-invite and give roles to abused users who have been unfairly removed from the server.
-It also keeps tally of the number of admin abuses throughout the day, to further
-shame any rogue moderators. But, it also has a handful of silly functions
-including a Markov Chain chatbot, which is gradually trained on the messages
+adminbot is a silly, but useful, bot designed to automatically moderate
+the moderators of a Discord server and to shame them when they have abused their
+moderator powers, i.e. removing the ability to speak for certain users. The main
+function is to unban, invite and give roles to abused users who have been unfairly
+admin abused on the server. To shame the admins, it keeps a daily tally of the
+number of admin abuses throughout the day. However, it also features a handful
+of silly functions including a Markov Chain chatbot which responds randomly to
+user's messages, gradually learning how to speak from the users of the server.
 from the server.
 {: style="text-align: justify"}
