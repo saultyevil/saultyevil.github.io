@@ -122,5 +122,4 @@ admin abused on the server. To shame the admins, it keeps a daily tally of the
 number of admin abuses throughout the day. However, it also features a handful
 of silly functions including a Markov Chain chatbot which responds randomly to
 user's messages, gradually learning how to speak from the users of the server.
-from the server.
 {: style="text-align: justify"}
