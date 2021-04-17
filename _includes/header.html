@@ -11,11 +11,15 @@
                 </li>
 
                 <li class="nav-item active">
-                    <a class="nav-link page-scroll" href="#projects">Projects</a>
+                    <a class="nav-link page-scroll" href="#projects">Programming</a>
                 </li>
 
                 <li class="nav-item active">
                     <a class="nav-link page-scroll" href="#publications">Publications</a>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link page-scroll" href="#research_projects">Research Projects</a>
                 </li>
 
                 <li class="nav-item active">
@@ -38,7 +42,7 @@
 						<ul class="list-inline intro-social-buttons">
 							{% for social in site.social %}
 							<li class="list-inline-item">
-								<a href="{{ social.url }}" class="btn btn-light" style="border: 1px solid rgb(196, 196, 196);"><i class="fa fa-{{ social.title }} fa-fw"></i> <span class="network-name">{{ social.title }}</span></a>
+								<a href="{{ social.url }}" class="btn btn-dark"><i class="fa fa-{{ social.title }} fa-fw"></i> <span class="network-name">{{ social.title }}</span></a>
 							</li>
 							{% endfor %}
 						</ul>

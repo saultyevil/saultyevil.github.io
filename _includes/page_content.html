@@ -7,7 +7,7 @@
                 <!-- <hr class="section-heading-spacer"> -->
                 <div class="clearfix"></div>
                 <div class="col-md-12">
-                    <h2 class="section-heading">Projects</h2>
+                    <h2 class="section-heading">Programming Projects</h2>
                     <p style="font-size: 18px;font-weight: 400;">
                         Below is a small sample of scripts, programs and projects
                         I have created or worked on. Most of them are for for data
@@ -65,6 +65,44 @@
     <!-- Publications content -->
     {% for post in site.posts reversed %}
       {% if post.category == 'publications' %}
+        <div class="content-section-b">
+            <div class="container">
+                <div class="row">
+                    <!-- <hr class="section-heading-spacer"> -->
+                    <div class="clearfix"></div>
+                    <!-- <h2 class="section-heading">{{ post.title }}</h2> -->
+                    <div class="col-md-12">
+                        <div class="lead">{{ post.content }}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+    {% endfor %}
+</section>
+
+<!-- Dissertations -->
+<section id="research_projects">
+    <!-- Pubcliations header -->
+    <div class="content-section-a">
+        <div class="container">
+            <div class="row vertical-align">
+                <!-- <hr class="section-heading-spacer"> -->
+                <div class="clearfix"></div>
+                <div class="col-md-12">
+                    <h2 class="section-heading">Research Projects</h2>
+                    <p style="font-size: 18px;font-weight: 400;">
+                        Below are the abstracts for theses and disserations
+                        I have written as part of short research projects during
+                        my time at university.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Publications content -->
+    {% for post in site.posts reversed %}
+      {% if post.category == 'research_projects' %}
         <div class="content-section-b">
             <div class="container">
                 <div class="row">
