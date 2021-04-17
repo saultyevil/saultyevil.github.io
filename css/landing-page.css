@@ -8,6 +8,8 @@ body,
 html {
     width: 100%;
     height: 100%;
+    color: #f8f9fa;
+    background-color: #23252f;
 }
 
 body,
@@ -28,7 +30,7 @@ h6 {
 }
 
 .intro-header {
-    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
@@ -90,7 +92,15 @@ h6 {
 }
 
 .bg-light {
-    background-color: #adafb8!important;
+    background-color: #282a36!important;
+}
+
+.nav-link {
+    color: #f8f9fa!important;
+}
+
+.navbar-light .navbar-brand {
+    color: #f8f9fa!important;
 }
 
 .border-bottom {
@@ -99,14 +109,14 @@ h6 {
 
 .content-section-a {
     padding: 50px 0;
-    background-color: #adafb8;  /*#f8f8f*/
+    background-color: #272935;  /*#f8f8f*/
     border-top: 0px solid #adafb8; /*#e7e7e7*/
     border-bottom: 0px solid #adafb8;
 }
 
 .content-section-b {
     padding: 50px 0;
-    /*background-color: #d8ddeb;*/
+    background-color: #23252f;
     /*border-top: 1px solid #e7e7e7;  /*#e7e7e7*/
     /*border-bottom: 1px solid #e7e7e7;*/
 }
