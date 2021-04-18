@@ -8,6 +8,9 @@
 						<h2>{{ page.subTitle }}</h2>
 						<hr class="intro-divider">
 						<ul class="list-inline intro-social-buttons">
+							<li class="list-inline-item">
+									<a href="mailto://e.j.parkinson@soton.ac.uk" class="btn btn-dark">EMAIL</a>
+							</li>
 							{% for social in site.social %}
 							<li class="list-inline-item">
 								<a href="{{ social.url }}" class="btn btn-dark"><i class="fa fa-{{ social.title }} fa-fw"></i> <span class="network-name">{{ social.title }}</span></a>

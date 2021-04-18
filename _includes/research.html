@@ -1,6 +1,7 @@
 <!--
   Publications
 -->
+
 <section id="publications">
 
   <!--
@@ -10,21 +11,30 @@
   <div class="content-section-a">
     <div class="container">
       <div class="row vertical-align">
-        <!-- <hr class="section-heading-spacer"> -->
         <div class="clearfix"></div>
-        <div class="col-md-12">
+        <div class="col-md-6">
           <h2 class="section-heading">Publications</h2>
+        </div>
+        <div class="col-md-6">
           <p style="font-size: 18px;font-weight: 400;">
-            Below are the abstracts for some of the research I've
-            done. A more in-depth bibliography, including works which
-            I have been co-author on, can be found on
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/ORCID_iD.svg/768px-ORCID_iD.svg.png" alt="drawing" width="20">
-            <a href="https://orcid.org/0000-0003-3902-052X">ORCID</a>.
+            Below are the abstracts for the articles where I am the first
+            author.
           </p>
+        </div>
+        <div class="col-md-12 text-center">
+          <br>
+          A more in-depth bibliography, including works which
+          I have been co-author on, can be found at
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/ORCID_iD.svg/768px-ORCID_iD.svg.png" alt="drawing" width="20">
+          <a href="https://orcid.org/0000-0003-3902-052X">ORCID</a>
         </div>
       </div>
     </div>
   </div>
+
+  <!--
+    Content
+  -->
 
   {% for post in site.posts %}
   {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
@@ -79,16 +89,19 @@
  -->
 
 <section id="research_projects">
+
   <!--
     Header
   -->
+
   <div class="content-section-b">
     <div class="container">
       <div class="row vertical-align">
-        <!-- <hr class="section-heading-spacer"> -->
         <div class="clearfix"></div>
-        <div class="col-md-12">
-          <h2 class="section-heading">Research Projects</h2>
+        <div class="col-md-6">
+          <h2 class="section-heading">Other projects</h2>
+        </div>
+        <div class="col-md-6">
           <p style="font-size: 18px;font-weight: 400;">
             Below are the abstracts for theses and disserations
             I have written as part of short research projects during
@@ -98,6 +111,11 @@
       </div>
     </div>
   </div>
+
+  <!--
+    Content
+  -->
+
 
   {% for post in site.posts reversed %}
   {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
