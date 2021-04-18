@@ -37,36 +37,12 @@
   -->
 
   {% for post in site.posts %}
-  {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
   {% if post.category == 'publications' %}
-  {% if thecycle == 'odd' %}
-  <div class="content-section-a">
-    <div class="container">
-      <div class="row vertical-align">
-        <div class="clearfix"></div>
-        <div class="col-md-6">
-          <h1>{{ post.title }}</h1>
-          <br>
-          <h3>{{ post.subTitle}}</h3>
-          <br>
-          {{ post.description }}
-          <img src="{{ post.img }}" style="max-width: 100%; height: auto;">
-        </div>
-        <div class="col-md-6">
-          <div class="lead" style="text-align: justify">{{ post.content }}</div>
-        </div>
-      </div>
-    </div>
-  </div>
-  {% else %}
   <div class="content-section-b">
     <div class="container">
       <div class="row vertical-align">
         <div class="clearfix"></div>
         <div class="col-md-6">
-          <div class="lead" style="text-align: justify">{{ post.content }}</div>
-        </div>
-        <div class="col-md-6">
           <h1>{{ post.title }}</h1>
           <br>
           <h3>{{ post.subTitle}}</h3>
@@ -74,10 +50,12 @@
           {{ post.description }}
           <img src="{{ post.img }}" style="max-width: 100%; height: auto;">
         </div>
+        <div class="col-md-6">
+          <div class="lead" style="text-align: justify">{{ post.content }}</div>
+        </div>
       </div>
     </div>
   </div>
-  {% endif %}
   {% endif %}
   {% endfor %}
 
@@ -94,7 +72,7 @@
     Header
   -->
 
-  <div class="content-section-b">
+  <div class="content-section-a">
     <div class="container">
       <div class="row vertical-align">
         <div class="clearfix"></div>
@@ -118,9 +96,7 @@
 
 
   {% for post in site.posts reversed %}
-  {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
   {% if post.category == 'research_projects' %}
-  {% if thecycle == 'odd' %}
   <div class="content-section-b">
     <div class="container">
       <div class="row vertical-align">
@@ -139,26 +115,6 @@
       </div>
     </div>
   </div>
-  {% else %}
-  <div class="content-section-a">
-    <div class="container">
-      <div class="row vertical-align">
-        <div class="clearfix"></div>
-        <div class="col-md-6">
-          <div class="lead" style="text-align: justify">{{ post.content }}</div>
-        </div>
-        <div class="col-md-6">
-          <h1>{{ post.title }}</h1>
-          <br>
-          <h3>{{ post.subTitle}}</h3>
-          <br>
-          {{ post.description }}
-          <img src="{{ post.img }}" style="max-width: 100%; height: auto;">
-        </div>
-      </div>
-    </div>
-  </div>
-  {% endif %}
   {% endif %}
   {% endfor %}
 
