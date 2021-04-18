@@ -40,14 +40,13 @@
   {% if thecycle == 'odd' %}
   <div class="content-section-b">
     <div class="container">
-      <div class="row vertical-align">
+      <div class="row align-top">
         <div class="clearfix"></div>
         <div class="col-md-6">
           <h1>{{ post.title }}</h1>
+          <h3>{{ post.subTitle}}</h3>
           {{ post.description }}
-          <br><br>
-          <h2>{{ post.subTitle}}</h2>
-          <img src="{{ post.img }}" style="max-width: 100%; height: auto;">
+          <!-- <img src="{{ post.img }}" style="max-width: 100%; height: auto;"> -->
         </div>
         <div class="col-md-6">
           <div class="lead" style="text-align: justify">{{ post.content }}</div>
@@ -58,17 +57,16 @@
   {% else %}
   <div class="content-section-a">
     <div class="container">
-      <div class="row vertical-align">
+      <div class="row align-top">
         <div class="clearfix"></div>
         <div class="col-md-6">
-          <div class="lead" style="text-align: justify">{{ post.content }}</div>
+          <h1>{{ post.title }}</h1>
+          <h3>{{ post.subTitle}}</h3>
+          {{ post.description }}
+          <!-- <img src="{{ post.img }}" style="max-width: 100%; height: auto;"> -->
         </div>
         <div class="col-md-6">
-          <h1>{{ post.title }}</h1>
-          {{ post.description }}
-          <br><br>
-          <h2>{{ post.subTitle}}</h2>
-          <img src="{{ post.img }}" style="max-width: 100%; height: auto;">
+          <div class="lead" style="text-align: justify">{{ post.content }}</div>
         </div>
       </div>
     </div>
