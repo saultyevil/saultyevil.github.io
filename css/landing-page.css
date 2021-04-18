@@ -65,7 +65,7 @@ h3 {
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
-.intro-message > h3 {
+.intro-message > h2 {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
 
@@ -127,7 +127,7 @@ h3 {
     padding: 50px 0;
     background-color: #23252f;
     /*border-top: 1px solid #e7e7e7;  /*#e7e7e7*/
-    /*border-bottom: 1px solid #e7e7e7;*/
+    /* border-bottom: 1px solid #e7e7e7; */
 }
 
 .section-heading {
