@@ -3,13 +3,8 @@
 	{% include head.html %}
 	<body>
 		{% include navbar.html %}
-
-		{% if page.url contains '/programming' %}
-			{% include programming.html %}
-		{% elsif page.url contains '/research' %}
-			{% include research.html %}
-		{% endif %}
-
+		{% include intro.html %}
+		{% include about.html %}
 		{% include contact.html %}
 		{% include footer.html %}
 		{% include js.html %}

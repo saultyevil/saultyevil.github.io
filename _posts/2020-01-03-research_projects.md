@@ -1,9 +1,6 @@
 ---
 layout: default
-img:
 category: research_projects
-title: ""
-description: |
 ---
 
 <br>

@@ -1,0 +1,59 @@
+<section id="programming">
+
+  <!-- Projects header
+       Header, plus description is contained in content-section-a
+  -->
+
+  <div class="content-section-a">
+    <div class="container">
+      <div class="row vertical-align">
+        <!-- <hr class="section-heading-spacer"> -->
+        <div class="clearfix"></div>
+
+        <div class="col-md-6">
+          <h2 class="section-heading">Programming Projects</h2>
+        </div>
+        <div class="col-md-6">
+          <p style="font-size: 18px;font-weight: 400;">
+            Below is a selection of my software projects I have
+            worked on as part of my PhD or in my spare time.
+          </p>
+        </div>
+
+        <div class="col-md-12">
+          Most of my projects can be found on
+          <img src="../img/github.png" alt="drawing" width="28" />
+          <a href="https://github.com/saultyevil">github.com/saultyevil</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Projects content
+       The posts are posted here, in reverse order for some reason.
+  -->
+
+  {% for post in site.posts reversed %}
+  {% if post.category == 'programming' %}
+  <div class="content-section-b">
+    <div class="container">
+      <div class="row vertical-align">
+        <div class="clearfix"></div>
+        <div class="col-md-6">
+          <h1>{{ post.title }}</h1>
+          {{ post.description }}
+          <br><br>
+          <h2>{{ post.subTitle}}</h2>
+          <img src="{{ post.img }}" style="max-width: 100%; height: auto;">
+        </div>
+        <div class="col-md-6">
+          <div class="lead" style="text-align: justify">{{ post.content }}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endif %}
+  {% endfor %}
+
+</section>

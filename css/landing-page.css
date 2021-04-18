@@ -13,9 +13,7 @@ html {
 }
 
 body,
-h1,
-h2,
-h3,
+
 h4,
 h5,
 h6 {
@@ -23,6 +21,17 @@ h6 {
     font-weight: 700;
 }
 
+h3 {
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 800;
+  color: #98a6ad;
+}
+
+h3 {
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  color: #98a6ad;
+}
 
 .lead {
     font-size: 18px;
