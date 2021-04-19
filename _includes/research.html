@@ -38,7 +38,7 @@
     Content
   -->
 
-  {% for post in site.posts reversed %}
+  {% for post in site.posts %}
   {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
   {% if post.category == 'publications' %}
   {% if thecycle == 'odd' %}
