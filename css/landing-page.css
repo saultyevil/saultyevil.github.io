@@ -203,3 +203,12 @@ p.copyright {
     display: flex;
     align-items: center;
 }
+
+@media only screen and (min-width: 960px) {
+  .navbar .navbar-nav .nav-item .nav-link {
+    padding: 0 0.5em;
+  }
+  .navbar .navbar-nav .nav-item:not(:last-child) .nav-link {
+    border-right: 2px solid #f8f9fa!important;
+  }
+}
