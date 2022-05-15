@@ -1,32 +1,36 @@
-# ----------------------- #
-#      Main Configs       #
-# ----------------------- #
+title: "Dr Edward J. Parkinson"
+author: "Edward J. Parkinson"
+description: ""
+permalink: /:title/
+lang: "en"
+excerpt_separator: "\n\n\n"
+date_format: "%B %d, %Y"
 
-url: http://edwardparkinson.co.uk
-title: Edward John Parkinson
-email: saultyevil@gmail.com
-author: Edward John Parkinson
-description: >
-  Personal website of Edward John Parkinson.
-copyright: 'Copyright &copy; 2020 Edward John Parkinson. All Rights Reserved.'
-credits: 'Inspired by the <a href="https://github.com/swcool/landing-page-theme">Landing Page Theme</a>.'
+# Layout
 
-# ----------------------- #
-#    Jekyll & Plugins     #
-# ----------------------- #
+show_excerpts: true       # show article excerpts on the home page
+show_frame: true           # adds a gray frame to the site
+show_sidebar: false        # show a sidebar instead of the usual header
+minimal: false             # use a dark header
 
-# Build settings
-markdown: kramdown
-permalink: pretty
+# Menu
 
-# ----------------------- #
-#   3rd Party Settings    #
-# ----------------------- #
+navigation:                # accepts {file, title, url, icon, sidebaricon}
+  - {file: "index.md"}
+  - {file: "research.md"}
+  - {file: "programming.md"}
+  - {file: "cv.md"}
+  - {file: "contact.md"}
 
-social:
-  - title: github
-    url: https://github.com/saultyevil
-  - title: linkedin
-    url: https://www.linkedin.com/in/edward-parkinson-86391613a/
-  - title: twitter
-    url: https://twitter.com/astroSaultyevil
+external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
+  - {title: Mail, icon: envelope, url: "mailto:edward.parkinson@protonmail.com"}
+  - {title: Github, icon: github, url: "https://github.com/saultyevil"}
+  - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/edward-parkinson-86391613a/"}
+  - {title: Twitter, icon: twitter, url: "https://twitter.com/douched_"}
+
+comments:
+#  disqus_shortname: ""    # see https://disqus.com/
+#  isso_domain: ""         # see https://posativ.org/isso/
+
+plugins:
+ - jekyll-feed

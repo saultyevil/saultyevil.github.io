@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<article>
+  <header><h1><a href="{{ page.url | relative_url }}">{{ page.pageTitle }}</a></h1></header>
+  {{ content }}
+  <br>
+  <form
+    class="my-form"
+    action="https://formspree.io/f/moqrykyl"
+    method="POST"
+  >
+  <input type="text" name="name" placeholder="Your Name">&nbsp;&nbsp;
+    <input type="email" name="email" placeholder="Your Email"><br><br>
+    <textarea type="text" name="message" placeholder="Your Message"></textarea><br><br>
+    <button type="submit">Send</button>
+  </form>
+</article>
