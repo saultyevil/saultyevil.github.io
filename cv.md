@@ -6,3 +6,5 @@ layout: page
 ---
 
 Here is my CV.
+
+{% include cv.html %}

@@ -1,4 +1,4 @@
-{%- assign posts = paginator.posts | default: site.posts -%}
+{%- assign posts = paginator.posts | default: site.posts | sort: "title" -%}
 
 {% for post in posts %}
 {% if post.category == include.category %}
@@ -6,8 +6,7 @@
     <br>
     {% include meta.html post=post preview=true %}
     {{ post.excerpt }}
-
-    <!-- <div class="more"><a href="{{ post.url | relative_url }}">read more</a></div> -->
+    <div class="more"><a href="{{ post.url | relative_url }}">Read more</a></div>
   </article>
 {% endif %}
 {% endfor %}

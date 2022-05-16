@@ -4,12 +4,6 @@ pageTitle: ""
 layout: page
 ---
 
-<!-- {% if site.show_excerpts %}
-  {% include feed.html %}
-{% else %}
-  {% include archive.html title="Posts" %}
-{% endif %} -->
-
 <img src="img/me.png" alt="it's me" style="max-width: 100%; height: auto;" />
 
 I am a PhD student at the University of Southampton, under the supervision of
