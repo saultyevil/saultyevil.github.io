@@ -6,18 +6,16 @@ layout: page
 
 <img src="img/me.png" alt="it's me" style="max-width: 100%; height: auto;" />
 
-I am a PhD student at the University of Southampton, under the supervision of
-Christian Knigge, simulating the light emitted when a star is ripped apart by a
-black hole, in something known as a Tidal Disruption Event. I am part of the
-Next Generational Computational Modelling Centre for Doctoral Training
-(<a href="https://www.ngcm.soton.ac.uk">NGCM-CDT</a>) and also the Computational
-Modelling Group, both based at the University of Southampton. I completed my
+I am a Research Software Engineer, part of the Southampton Research
+Software Group at the University of Southampton. I completed my Ph.D in Next
+Generation Computational Modelling at the University of Southampton, under
+the supervision of Professor Christian Knigge, in 2022. My research consisted of
+simulation the light emitted when a star is ripped apart by a black hole,
+in something known as a tidal disruption event. I completed my
 integrated masters in physics with astrophysics at the University of Kent,
-graduating first class with honours in 2016. In my masters year, I specialized
-in hydrodynamical modelling of jets in radio galaxies.
+specialising in hydrodynamics, first class with honours in 2016.
 
-
-During my PhD, I have had the opportunity to build my computational and
+During my PhD, I had excellent opportunity to build my computational and
 communication skills, attending international workshops and conferences to
 share my work with the community and have had the opportunity to work in
 international collaborations. At Southampton, I have had access to world-class
