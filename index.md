@@ -10,10 +10,10 @@ I am a Research Software Engineer, part of the Southampton Research
 Software Group at the University of Southampton. I completed my Ph.D in Next
 Generation Computational Modelling at the University of Southampton, under
 the supervision of Professor Christian Knigge, in 2022. My research consisted of
-simulation the light emitted when a star is ripped apart by a black hole,
+simulating the light emitted when a star is ripped apart by a black hole,
 in something known as a tidal disruption event. I completed my
-integrated masters in physics with astrophysics at the University of Kent,
-specialising in hydrodynamics, first class with honours in 2016.
+masters in physics with astrophysics at the University of Kent,
+specialising in hydrodynamics, graduating first class with honours in 2016.
 
 During my PhD, I had excellent opportunity to build my computational and
 communication skills, attending international workshops and conferences to
