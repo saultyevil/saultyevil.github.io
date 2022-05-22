@@ -2,9 +2,11 @@
 layout: post
 category: research
 title: "Shining lights, even in death: modelling the optical and ultraviolet emission from Tidal Disruption Events"
-subTitle: "Parkinson, Edward J."
-weblink: https://1drv.ms/b/s!AkpPf6fSLA5Djekt0RfPAhtkli5Rqw?e=50Ewbr
-extra: "Ph.D thesis, 2022"
+subTitle: "Parkinson, Edward J.; 2022"
+# weblink: https://1drv.ms/b/s!AkpPf6fSLA5Djekt0RfPAhtkli5Rqw?e=50Ewbr
+weblink: "assets/thesis.pdf"
+pdflink: true
+extra: "View PDF"
 ---
 
 #### Abstract

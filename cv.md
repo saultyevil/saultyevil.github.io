@@ -5,6 +5,4 @@ permalink: "/cv/"
 layout: page
 ---
 
-Here is my CV.
-
-{% include cv.html %}
+{% include cv_pandoc.html %}
