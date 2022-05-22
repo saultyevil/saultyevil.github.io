@@ -5,8 +5,9 @@ permalink: "/Projects/"
 layout: page
 ---
 
-Below is a selection of software projects I've worked on during my PhD or in
-my spare time. Most of these projects are for analysis and/or visualisation of
-astrophysical data. But there are a few projects which were fun!
+Below is a selection of software I worked on during my PhD or in my free time.
+Given my background, naturally most of them are for analysis and visualisation
+of real and simulated astrophysical data. Stillm there are a few projects
+included which I did for fun!
 
 {% include feed.html category="programming" %}

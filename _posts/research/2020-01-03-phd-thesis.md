@@ -2,14 +2,11 @@
 layout: post
 category: research
 title: "Shining lights, even in death: modelling the optical and ultraviolet emission from Tidal Disruption Events"
-subTitle: "Parkinson, Edward J.; 2022"
-# weblink: https://1drv.ms/b/s!AkpPf6fSLA5Djekt0RfPAhtkli5Rqw?e=50Ewbr
+subtitle: "Parkinson, Edward J.; 2022"
+extra: "View PDF"
 weblink: "assets/thesis.pdf"
 pdflink: true
-extra: "View PDF"
 ---
-
-#### Abstract
 
 When an unlucky star wanders too close to a supermassive black hole, the self-gravity keeping that star together
 is completely overwhelmed by the tidal forces of the interaction and is torn asunder in something known as a tidal
