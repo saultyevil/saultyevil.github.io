@@ -4,5 +4,9 @@
     {% if include.post.subtitle %}
       <br />
     {% endif %}
-    <a href="https://saultyevil.github.io/{{ include.post.weblink }}" target="_blank">{{ include.post.extra }}</a>  
+    {% if include.post.pdflink %}
+      <a href="https://saultyevil.github.io/{{ include.post.weblink }}" target="_blank">{{ include.post.extra }}</a>
+    {% else %}
+      <a href="{{ include.post.weblink }}" target="_blank">{{ include.post.extra }}</a>
+    {% endif %}
 </header>
