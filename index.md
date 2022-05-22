@@ -1,21 +1,30 @@
 ---
 title: "Home"
 pageTitle: ""
+permalink: "/"
 layout: page
 ---
 
-<img src="img/me.png" alt="it's me" style="max-width: 100%; height: auto;" />
+<div class="container">
+    <div class="row">
+        <div class="col-4">
+            <img src="img/me.png" alt="it's me" style="max-width: 100%; height: auto;" />
+        </div>
+        <div class="col align-self-center" align="center">
+            <h1>Edward John Parkinson</h1>
+            <h5>Research Software Engineer</h5>
+        </div>
+    </div>
+</div>
+<br />
 
-I am a Research Software Engineer, part of the Southampton Research
-Software Group at the University of Southampton. I completed my Ph.D in Next
-Generation Computational Modelling at the University of Southampton, under
-the supervision of Professor Christian Knigge, in 2022. My research consisted of
-simulating the light emitted when a star is ripped apart by a black hole,
-in something known as a tidal disruption event. I completed my
-masters in physics with astrophysics at the University of Kent,
-specialising in hydrodynamics, graduating first class with honours in 2016.
+Research Software Engineer @ the University of Southampton. Ph.D in Next
+Generation Computational Modelling, also @ the University of Southampton.
+Supervised by Professor Christian Knigge, simulating the light emitted when a
+star is ripped apart by a supermassive black hole.
 
-During my PhD, I had excellent opportunity to build my computational and
+
+<!-- During my PhD, I had excellent opportunity to build my computational and
 communication skills, attending international workshops and conferences to
 share my work with the community and have had the opportunity to work in
 international collaborations. At Southampton, I have had access to world-class
@@ -26,4 +35,4 @@ toolkit of data analysis techniques, statistical modelling, Python/R frameworks
 and numerical techniques to confront theory with observations, producing novel
 and state-of-the-art research. I have been the principle investigator for
 multiple collaborative and individual research projects and a key team member
-in cross-disciplinary collaborations and projects.
+in cross-disciplinary collaborations and projects. -->
