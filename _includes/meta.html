@@ -1,15 +1,14 @@
 <header>
-  <!-- <a href="{{ include.post.url | relative_url }}"> -->
-    <h4>{{ include.post.title }}</h4>
-    {{ include.post.subTitle }}
-  <!-- </a> -->
-  <br />
+    <h2>{{ include.post.title }}</h2>
+
+    {% if include.post.subtitle %}
+      {{ include.post.subtitle }}
+      <br />
+    {% endif %}
+
     {% if include.post.pdflink %}
       <a href="https://saultyevil.github.io/{{ include.post.weblink }}" target="_blank">{{ include.post.extra }}</a>
     {% else %}
       <a href="{{ include.post.weblink }}">{{ include.post.extra }}</a>
     {% endif %}
 </header>
-
-  <!-- {%- assign date_format = site.date_format | default: "%B %d, %Y" -%}
-  <time datetime="{{ include.post.date | date_to_xmlschema }}">{{ include.post.date | date: date_format }}</time> -->

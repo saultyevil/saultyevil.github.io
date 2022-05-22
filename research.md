@@ -14,6 +14,6 @@ which escapes. My other main research interest is using high performance
 computing and parallel processing techniques in research software, to tackle
 problems which previously could not realistically be solved.
 
-<h1>Publications</h1>
+Below is a selection of some of the publications I have been involved with.
 
 {% include feed.html category="research" %}

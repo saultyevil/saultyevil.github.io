@@ -18,11 +18,22 @@ layout: page
 </div>
 <br />
 
-Research Software Engineer @ the University of Southampton. Ph.D in Next
-Generation Computational Modelling, also @ the University of Southampton.
-Supervised by Professor Christian Knigge, simulating the light emitted when a
-star is ripped apart by a supermassive black hole.
+Research Software Engineer embedded in the [Southampton Research Software
+Group](https://rsgsoton.net/) @ the University of Southampton. Passionate about
+improving the quality and reproducibility of research software. Involved in
+multiple projects, using a wide range of languages and technologies. Have
+worked with HPC, AI/ML, web technologies, and cloud computing.
 
+Ph.D in [Next Generation Computational Modelling](https://www.ngcm.soton.ac.uk/),
+also @ the University of Southampton. Supervised by
+[Professor Christian Knigge](https://www.phys.soton.ac.uk/people/ck7).
+Confronted theory with observations with novel simulations of the light emitted
+when a star is ripped apart by a supermassive black hole in something known as a
+tidal disruption event. Attended and participated in national and international
+workshop and conferences.
+
+My research interests, personal programming projects and curriculum vitae can
+be found on the website.
 
 <!-- During my PhD, I had excellent opportunity to build my computational and
 communication skills, attending international workshops and conferences to
