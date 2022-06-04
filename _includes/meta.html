@@ -2,13 +2,11 @@
     <h3>{{ include.post.title }}</h3>
 
     {% if include.post.subtitle %}
-      {{ include.post.subtitle }}
       <br />
     {% endif %}
-
     {% if include.post.pdflink %}
       <a href="https://saultyevil.github.io/{{ include.post.weblink }}" target="_blank">{{ include.post.extra }}</a>
     {% else %}
-      <a href="{{ include.post.weblink }}">{{ include.post.extra }}</a>
+      <a href="{{ include.post.weblink }}" target="_blank">{{ include.post.extra }}</a>
     {% endif %}
 </header>
