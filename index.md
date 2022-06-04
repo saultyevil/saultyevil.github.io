@@ -11,29 +11,27 @@ layout: page
             <img src="img/me.png" alt="it's me" style="max-width: 100%; height: auto;" />
         </div>
         <div class="col align-self-center" align="center">
-            <h1>Edward John Parkinson</h1>
+            <h1>Dr. Edward John Parkinson</h1>
             <h5>Research Software Engineer</h5>
+            <h6>University of Southampton</h6>
         </div>
     </div>
 </div>
 <br />
 
-Research Software Engineer embedded in the [Southampton Research Software
-Group](https://rsgsoton.net/) @ the University of Southampton. Passionate about
-improving the quality and reproducibility of research software. Involved in
-multiple projects, using a wide range of languages and technologies. Have
-worked with HPC, AI/ML, web technologies, and cloud computing.
+Research Software Engineer, part of the [Southampton Research Software
+Group](https://rsgsoton.net/) at the University of Southampton. Passionate about
+improving the quality and reproducibility of software in research, especially
+in legacy code bases in astrophysics. Involved in multiple projects, from HPC
+and machine learning, to modern web and app development.
 
-Ph.D in [Next Generation Computational Modelling](https://www.ngcm.soton.ac.uk/),
-also @ the University of Southampton. Supervised by
-[Professor Christian Knigge](https://www.phys.soton.ac.uk/people/ck7).
-Confronted theory with observations with novel simulations of the light emitted
-when a star is ripped apart by a supermassive black hole in something known as a
-tidal disruption event. Attended and participated in national and international
-workshop and conferences.
-
-My research interests, personal programming projects and curriculum vitae can
-be found on the website.
+Completed a Ph.D. in Computational Astrophysics with the
+[Next Generation Computational Modelling Centre for Doctoral Training](https://www.ngcm.soton.ac.uk/)
+at the University of Southampton, under the supervision of
+[Prof. Christian Knigge](https://www.phys.soton.ac.uk/people/ck7).
+Confronted theory with observations using novel radiative transfer simulations,
+to simulate the journey of light emitted when a star is ripped apart by a
+supermassive black hole, in something known as a tidal disruption event.
 
 <!-- During my PhD, I had excellent opportunity to build my computational and
 communication skills, attending international workshops and conferences to
