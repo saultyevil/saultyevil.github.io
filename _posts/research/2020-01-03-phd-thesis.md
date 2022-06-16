@@ -3,9 +3,8 @@ layout: post
 category: research
 title: "Shining lights, even in death: modelling the optical and ultraviolet emission from Tidal Disruption Events"
 subtitle: "Parkinson, Edward J.; 2022"
-extra: "View PDF"
-weblink: "assets/thesis.pdf"
-pdflink: true
+extra: "View online"
+weblink: "https://eprints.soton.ac.uk/457482/"
 ---
 
 When an unlucky star wanders too close to a supermassive black hole, the self-gravity keeping that star together
